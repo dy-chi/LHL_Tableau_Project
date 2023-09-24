@@ -21,7 +21,7 @@ https://data.calgary.ca/Transportation-Transit/Bike-and-Pedestrian-Counts/pede-t
 I found that hilliness is a very import factor in how much effort a cyclist must produce. At 0% incline Cycling at a modest pace of 15 k/hr is easy for almost everyone. Hills in contrast require some "sweat" for almost everyone to varying degrees, and is likely a factor for difference in Calgary's general demographics and the demographics of cycle-commuters. 
 
 ## Challenges 
-It was difficult using Tableau at times. Specifically tyring to use calculated fields relying on parameters in another datasource. I also had to use estimations for cycling fitness that may not be accurate. 
+It was difficult using Tableau at times. Specifically using calculated fields relying on parameters in another datasource. I also had to use estimations for cycling fitness that may not be accurate. 
 
 ## Future Goals
 I found what areas of the city are accessible for each a cyclist without sweating. The next step is finding where it is impossible for a cyclist to access. And trying this for other cities and cycle networks. I would also like to find out a more accurate estimate of FTP fitness 
