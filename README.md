@@ -1,17 +1,20 @@
 # Final-Project-Tableau
 
 ## Project/Goals
-(fill in your description and goals here)
-
+I want to show what portion of Calgaries bicycle pathways are easily accessible given a person's cycling fitness, weight. 
 ## Process
-### (your step 1)
-### (your step 2)
+### 1) Get elevation data for Calgary. (DEM model from the City of Calgary website)
+### 2) Get shapefiles of Calgaries bikeways from the City of Calgary website
+### 3) Calculate inclinations of each 10m segment of Calgary's bikeways using QGIS and a python plugin 
+### 4) Calculate theoretical data on the physics of bicycles. See jupyter notebook
+### 5) Get cycling demographic data from the City of Calgary website
+### 5) Combine datasources in Tableau and create a story
 
 ## Results
-(Fill in which Option you chose, either 1 or 2. List the dataset you selected for the project if you selected Option 2. Also, discuss the visualizations you created, and why. For Option 2, also identify what your data question was, and how you went through the prompts.)
+I found that hilliness is a very import factor in how much effort a cyclist must produce. Cycling at a modest pace of 15 k/hr is easy for almost everyone, given a flat incline. Calgary has plenty of hills but most of the network is flat.   
 
 ## Challenges 
-(discuss challenges you faced in the project)
+It was difficult using Tableau at times. Specifically tyring to use calculated fields relying on parameters in another datasource. I also had to use estimations for cycling fitness that may not be accurate. 
 
 ## Future Goals
-(what would you do if you had more time?)
+I found what areas of the city are accessible for each a cyclist without sweating. The next step is finding where it is impossible for a cyclist to access. And trying this for other cities and cycle networks. I would also like to find out a more accurate estimate of FTP fitness 
